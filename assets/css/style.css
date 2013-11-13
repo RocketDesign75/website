@@ -218,6 +218,13 @@ text-align:center;
 background:#2ecc71;
 }
 .hide{display:none}
+
+.bit-3 {}
+.bit-3 span{display:block;clear:both;margin-top:-1em}
+.bit-3:hover span adress{opacity:1}
+.bit-3 span adress {font-weight:800;opacity:0;transition:opacity .3s ease}
+.bit-3  span adress a{}
+
 @keyframes roll { 
     0% { transform: rotate() }
     100% { transform: rotate(360deg) }
